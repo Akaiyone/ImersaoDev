@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://cms.qz.com/wp-content/uploads/2020/03/MONEY.jpeg?quality=75&strip=all&w=1600&h=900&crop=1://www.pngfind.com/pngs/m/0-8417_download-money-coin-hd-png-download.png");
+    background-color: #000000;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    background-color: #6c7ac5;
+    padding-top: 2px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: rgb(0, 255, 34);
+    background-color: white;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #e23434;
+  }
+  button:hover{
+    transition: 0.5s;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+            -4px -4px 6px 0 rgba(161, 31, 31, 0.5), 
+  inset -4px -4px 6px 0 rgba(158, 11, 11, 0.2),
+  inset 4px 4px 6px 0 rgba(161, 57, 57, 0.952);
+  }
+  
+  h2 {
+    color: #23b65b;
+    font-size: 30px;
+    background-color: #6c7ac5;
+    border-radius: 15px;
+  }
+
+  h2:hover{
+      text-shadow: 1.5px 2px rgb(24, 114, 76);
+      transition: 1s;
+      box-shadow:  4px 4px 6px 0 rgba(41, 248, 51, 0.5),
+              -4px -4px 6px 0 rgba(116, 136, 119, 0.5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  
